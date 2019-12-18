@@ -1,5 +1,5 @@
 git init  //初始化本地仓库 
 git add <file>  //添加文件到本地仓库
 git commit -m "提交的说明" //将在本地仓库的文件提交
-
-  
+git status //查看当前仓库的状态 （是否有有未提交的文件）
+git log //查看提交历史记录
