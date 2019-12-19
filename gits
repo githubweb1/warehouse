@@ -6,6 +6,6 @@ git log //查看提交历史记录版本（如果出现退不出 按 q键）
 git reset --hard HEAD^  //退回上一次提交的版本
 git reset --hard commit_id //回到指定版本位置
 git reflog  //用来记录你的每一次命令
-git diff HEAD --<文件名> //查看工作区和缓存区的区别
-git checkout -- <文件名>  //把file文件在工作区的修改全部撤销
+git diff HEAD --<文件名> //查看工作区和暂存区的区别
+git checkout -- <文件名>  //把file文件在工作区的修改全部撤销（git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。）
 git reset HEAD <文件名>  //可以把暂存区的修改撤销，重新放回工作区（可以配合 git checkout -- <文件名>）
