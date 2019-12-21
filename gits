@@ -21,4 +21,4 @@ git branch -d dev //删除 dev分支
 git merge dev //合并dev分支到当前分支
 git --version //查看自己的git版本
 git update //2.17.1之前的版本升级
-git update-git-for-windows  //2.17.1之后的版本
+git update-git-for-windows  //2.17.1之后的版本 777
