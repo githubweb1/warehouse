@@ -13,6 +13,8 @@ ssh-keygen -t rsa -C 987250980@qq.com (连敲两次 这是重新生成秘钥SSh)
 git remote add origin <远程仓库地址>  //关联远程库
 git push -u origin master  //把本地仓库的内容推送到远程内容推送到远程（git push 是把当前分支master 推送到远程）
 git push origin master //推送到远程仓库
+git switch -c dev //创建并切换到dev 分支
+git switch dev //切换到dev分支
 git checkout -b dev  //创建并切换到dev 分支
 git branch dev //创建dev分支
 git checkout dev //切换到dev分支
@@ -21,8 +23,6 @@ git branch -d dev //删除 dev分支
 git merge dev //合并dev分支到当前分支
 git --version //查看自己的git版本
 git update //2.17.1之前的版本升级
-<<<<<<< HEAD
-git update-git-for-windows  //2.17.1之后的版本 777
-=======
-git update-git-for-windows  //2.17.1之后的版本  777
->>>>>>> feature1
+git update-git-for-windows  //2.17.1之后的版本 
+git log --graph --pretty=oneline --abbrev-commit //带参数的git log 可以看到分支的合并情况
+
