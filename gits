@@ -18,3 +18,4 @@ git branch dev //创建dev分支
 git checkout dev //切换到dev分支
 git branch //查看当前所有分支
 git branch -d dev //删除 dev分支
+git merge dev //合并dev分支到当前分支
