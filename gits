@@ -26,5 +26,6 @@ git update //2.17.1之前的版本升级
 git update-git-for-windows  //2.17.1之后的版本 
 git log --graph --pretty=oneline --abbrev-commit //带参数的git log 可以看到分支的合并情况
 git stash //可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
-
+git stash list //查看隐藏起来的内容 
+git stash pop //恢复隐藏的内容 并删除
 
