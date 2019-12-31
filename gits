@@ -25,4 +25,4 @@ git --version //查看自己的git版本
 git update //2.17.1之前的版本升级
 git update-git-for-windows  //2.17.1之后的版本 
 git log --graph --pretty=oneline --abbrev-commit //带参数的git log 可以看到分支的合并情况
-999
+
