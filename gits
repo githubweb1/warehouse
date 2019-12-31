@@ -27,3 +27,7 @@ git update-git-for-windows  //2.17.1之后的版本
 git log --graph --pretty=oneline --abbrev-commit //带参数的git log 可以看到分支的合并情况
 git stash //可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 git branch -D <分支名> //强行删除未合并的分支
+git remote  //要查看远程库的信息 
+git remote -v //更详细的信息
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
